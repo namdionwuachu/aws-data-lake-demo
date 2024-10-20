@@ -38,7 +38,7 @@ Resources:
             - !Ref MySecurityGroupId
           AvailabilityZone: us-east-1d
         ConnectionProperties:
-          JDBC_CONNECTION_URL: !Ref JdbcConnectionUrlMySQL
+          JDBC_CONNECTION_URL: !Ref JdbcConnectionUrlMSSQL
           JDBC_ENFORCE_SSL: 'false'
           PASSWORD: <CHANGE_ME>
           USERNAME: admin
